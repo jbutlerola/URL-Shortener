@@ -19,7 +19,7 @@ export const Header = () => {
 
         <ul>
           <li><button>Login</button></li>
-          <li><button className='btn-cta'>Sign Up</button></li>
+          <li><button className='btn-cta rounded-full'>Sign Up</button></li>
         </ul>
       </header>
     </>
