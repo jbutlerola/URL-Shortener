@@ -20,7 +20,7 @@ body {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.9;
 }
 
 .btn-cta {
@@ -46,4 +46,19 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%)
+}
+
+@media (min-width: 1024px) {
+  .card article:nth-child(3) {
+    transform: translateY(2rem)
+  }
+  
+  .card article:last-child {
+    transform: translateY(4rem)
+  }
+
+  .line {
+    @apply bg-cyan-500 h-1 w-full absolute;
+    top: 50%;
+  }
 }
