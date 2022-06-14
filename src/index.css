@@ -22,6 +22,10 @@ body {
 p {
   line-height: 1.9;
 }
+/* TODO: Remove !important tag */
+h1 {
+  line-height: 1.2 !important;
+}
 
 .btn-cta {
   @apply bg-cyan-500 py-2 px-4 text-white hover:opacity-75 transition-all duration-200 cursor-pointer;
