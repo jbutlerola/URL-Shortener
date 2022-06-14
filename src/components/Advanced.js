@@ -6,7 +6,7 @@ import fullyCustomizableImage from "../images/icon-fully-customizable.svg";
 export const Advanced = () => {
   return (
     <>
-      <section className="bg-gray-100 py-10 lg:pt-20 lg:pb-40">
+      <section className="bg-gray-100 pt-32 pb-10 lg:pb-40">
         <div className="max-width">
           <h2 className="text-4xl font-bold text-slate-800 mb-3 text-center">
             Advanced Statistics

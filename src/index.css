@@ -35,9 +35,28 @@ h1 {
   @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0
 }
 
+.shortener {
+  background-color: hsl(257, 27%, 26%);
+  height: 17.188rem;
+  border-radius: 8px;
+}
+
+.shortener img {
+  height: 17.188rem;
+  @apply w-full rounded-lg
+}
+
+.shortener .form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
 .boost {
   background-color: hsl(257, 27%, 26%);
-  height: 17.88rem;
+  height: 17.188rem;
 }
 
 .boost img {
